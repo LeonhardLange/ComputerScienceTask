@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Analytics extends JFrame {
+public class Analytics extends JFrame { //This file never really got completed
     private JSpinner spinner1;
     private JSpinner spinner2;
     private JButton analyseButton;

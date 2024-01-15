@@ -15,9 +15,9 @@ public class AttendSize extends JFrame{
         setSize(450, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-        spinner1.setValue(arrSize);
+        spinner1.setValue(arrSize); //Spinner that allows you to enter a number
 
-        confirmButton.addActionListener(new ActionListener() {
+        confirmButton.addActionListener(new ActionListener() { //Confirm button
             @Override
             public void actionPerformed(ActionEvent e) {
                 arrSize = (int) spinner1.getValue();

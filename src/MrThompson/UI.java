@@ -20,9 +20,9 @@ public class UI extends JFrame{
                 pass = passwordField.getText();
                 System.out.println(pass);
 
-                if (pass.equals("1234")) {
-                    System.out.println("yes");
-                    MainGUI mainGUI = new MainGUI();
+                if (pass.equals("1234")) { //Bad way to check password
+                    System.out.println("yes"); //Test whether the password was accepted
+                    MainGUI mainGUI = new MainGUI(); //Opens the home menu
                     setVisible(false);
                     dispose();
                 }

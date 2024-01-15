@@ -9,8 +9,6 @@ public class MainGUI extends PAndE {
     private JButton participationAndEngagementButton;
     private JButton attendanceButton;
     private JPanel Poggers;
-    private JButton analyticsButton;
-
     public MainGUI() {
         setContentPane(Poggers);
         setTitle("Menu");
@@ -38,14 +36,6 @@ public class MainGUI extends PAndE {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Grades grades = new Grades(); //Opens the Grades Page
-                setVisible(false); //Makes the current page invisible
-                dispose(); //Closes the current page
-            }
-        });
-        analyticsButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Analytics analytics = new Analytics();
                 setVisible(false); //Makes the current page invisible
                 dispose(); //Closes the current page
             }
